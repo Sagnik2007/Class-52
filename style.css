@@ -1,0 +1,74 @@
+.header{
+    background-color: aqua;
+    text-align: center;
+    letter-spacing: 2.5px;
+    word-spacing: 2.5px;
+}
+.header h1{
+    color:red;
+    transition-duration: 0.3s;
+     transition-delay: 1s;
+}
+.header:hover h1{
+    color:navy;
+}
+ BODY { 
+     background-color: violet;
+     transition-duration: 0.3s;
+     transition-delay: 1s;
+ }
+ BODY:hover{
+     background-color:tomato;
+ }
+.Description{
+    background-color: antiquewhite;
+    border-color: magenta;
+    border:solid;
+}
+
+.Games{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Items p{
+    font-size: 20;
+    text-align: center;
+    color:maroon;
+    opacity:0;
+}
+.Items:hover p{
+    opacity:1;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: royalblue;
+}
+.Items{
+    border:solid 2px;
+    border-color: black;
+    border-radius: 35px;
+    margin-top: 50px;
+    padding-top: 30px;
+    flex-grow: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+    opacity: 1;
+    color:springgreen;
+    box-shadow: 20px -20px;
+    transition-duration: 0.3s;
+    transition-delay: 1s;
+}
+
+.Items:hover{
+    color: violet;
+}
+.Items img{
+    opacity: 1;
+}
+.Items:hover img{
+    opacity:0.3;
+}
